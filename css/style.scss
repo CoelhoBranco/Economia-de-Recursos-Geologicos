@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+   /* background: linear-gradient(to top, rgb(246, 248, 252) 0%,rgb(171,192,228) 49%, rgb(171,192,228) 83%,rgb(199, 213, 237) 100%);9*/
+}
+title{
+    opacity: 0;
+}
+html{
+    background: linear-gradient(to top, rgb(246, 248, 252) 0%,rgb(171,192,228) 49%, rgb(171,192,228) 83%,rgb(199, 213, 237) 100%);
+    height: 100%;
+    width: 100%;
+    // Needs latest Compass, add '@import "compass"' to your scss
+    // Permalink - use to edit and share this gradient:
+    
+}
+.menu{
+    list-style: none;
+    /*display: inline-block;*/
+    background-color: rgb(171,192 ,228);
+    height: 10%;
+    width: 100%;
+    align-content: center;
+    display: flex;
+    a{
+        display: inline-block;
+        text-decoration: none;
+        
+    }   
+}
+
+script{
+    opacity: 0;
+}
