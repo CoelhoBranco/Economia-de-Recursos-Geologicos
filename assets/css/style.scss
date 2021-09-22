@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-size:20px;
+    color: white;
    /* background: linear-gradient(to top, rgb(246, 248, 252) 0%,rgb(171,192,228) 49%, rgb(171,192,228) 83%,rgb(199, 213, 237) 100%);9*/
 }
 
@@ -10,11 +11,13 @@ body{
     width: 100%;
 }
 
-div{
+#main{
     background: linear-gradient(to top, rgb(246, 248, 252) 0%,rgb(171,192,228) 49%, rgb(171,192,228) 83%,rgb(199, 213, 237) 100%);
     //height: 100%;
     width: 100%;
     height: 100vh;
+    margin:0;
+    //text-align:center;
 }
 .menu{
     /*como colcoar o menu alinhado no centro*/
@@ -42,7 +45,8 @@ div{
         display:flex;    
         position: relative;
         float:left;
-        border-right: 1px solid; //insira uma cor;
+        //border-right: 1px solid//; //insira uma cor;
+        padding-right:10px;
         a{
             
             align-content: center;        
@@ -82,5 +86,15 @@ footer{
         background-color: rgb(149, 183, 243);
         font-size:15px;
         //faz ficar no topo
+}
+#main div.bv{
+    
+    //align-items:center;
+    //align:center;
+    padding-top:50%;
+    //margin-left: auto;
+    //margin-right: auto;
+    //width:6em;
+    text-align: center;
 }
 
